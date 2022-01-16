@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>tetris</title>
+<link href="tetris.css" rel="stylesheet" />
+</head>
+<body>
+<div id="playSpace">
+<canvas id="board" class="gameBoard"></canvas>
+<div id="clm2">
+<input id="pause" type="button" value="pause" />
+<p id="score">score: <span id="num"></span></p>
+<p id="status">now playing</p>
+<p id="next">next</p>
+<canvas id="next1"></canvas>
+<p id="hold">hold</p>
+<canvas id="next2"></canvas>
+</div>
+</div>
+<script src="piece.js"></script>
+<script src="board.js"></script>
+<script src="tetris.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.2.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>

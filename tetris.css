@@ -1,0 +1,42 @@
+*{
+	background-color:gray;
+}
+#playSpace{
+	display:grid;
+	grid-template-columns: 320px 300px;
+}
+#board{
+	grid-column-start:1;
+	border-style:solid;
+	border-color:black;
+	border-width:2px;
+
+}
+#clm2{
+	grid-column-start:2;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
+#status, p{
+	font-family:courier;
+	font-size:15pt;
+	border-radius:3px;
+	border-style:dashed;
+	border-width:2px;
+	padding:10px;
+	text-align:center;
+}
+#pause{
+	margin-bottom:5px;
+	margin-top:30px;
+	height:30px;
+}
+#next1{
+	width:100px;
+	height:100px;
+}
+#next2{
+	width:100px;
+	height:100px;
+}
